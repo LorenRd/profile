@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lorenrd.com
+Token: 619dfd8f9182b41335502095e621d2e3f71d874cd583d27df6636796cc55095f
