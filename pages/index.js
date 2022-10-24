@@ -67,7 +67,6 @@ export default function Home() {
         />
       </div>
       <Footer />
-      <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC5P1QB9V8"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
