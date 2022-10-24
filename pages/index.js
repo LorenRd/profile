@@ -11,7 +11,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ReactGA from 'react-ga';
 
 export default function Home() {
-  const TRACKING_ID = "G-BR40802V7N";
+  const TRACKING_ID = "G-9SFQCHG3PE";
   ReactGA.initialize(TRACKING_ID);
   return (
     <div className="">
