@@ -8,8 +8,11 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import ReactGA from 'react-ga';
 
 export default function Home() {
+  const TRACKING_ID = "G-GC5P1QB9V8";
+  ReactGA.initialize(TRACKING_ID);
   return (
     <div className="">
       <Head>
@@ -67,14 +70,6 @@ export default function Home() {
         />
       </div>
       <Footer />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC5P1QB9V8"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-GC5P1QB9V8');
-      </script>
     </div>
   )
 }
