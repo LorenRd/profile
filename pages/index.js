@@ -39,7 +39,7 @@ export default function Home() {
               🌍 I'm from Seville currently living in Barcelona (Spain).
             </div>
             <div className="my-3">
-              🤖 I'm interested in Software Engineering and Machine Learning, but mainly I love to solve challenging real world problems and learn new things.
+              🤖 I'm interested in Software and Data Engineering, but mainly I love to solve challenging real world problems and learn new things.
             </div>
             <div className="my-3">
               🔭Feel free to follow me at LinkedIn or Twitter where I share my thoughts and experiences.
